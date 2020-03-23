@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
 {
     for (int i = 0; i < multiplication; ++i) {
 // #pragma omp atomic
-        val = val + 1;
+        val += 1;
     }
 }
 
